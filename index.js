@@ -15,11 +15,16 @@ function logDriversByHometown(drivers, location){
 }
 
 function driversByRevenue(drivers){
+<<<<<<< HEAD
   return [...drivers].sort(function(a, b){
+=======
+  return drivers.sort(function(a, b){
+>>>>>>> 7e4ffb6b3de57e614db44f20093d1cba1255598c
     return a.revenue -b.revenue
     
   });
 }
+<<<<<<< HEAD
 
 function driversByName(drivers) {
   return [...drivers].sort(function(a,b){
@@ -37,3 +42,5 @@ function totalRevenue(drivers){
 function averageRevenue(drivers){
   return totalRevenue(drivers)/drivers.length;
 }
+=======
+>>>>>>> 7e4ffb6b3de57e614db44f20093d1cba1255598c
